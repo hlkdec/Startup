@@ -7,6 +7,7 @@ $(document).ready(function(){
         slidesToScroll: 1,
         // autoplay:true,
         autoplaySpeed:1000,
+        lazyLoad:'progressive',
         responsive:[{
         	breakpoint: 1041,
         	settings:{
@@ -37,6 +38,7 @@ $(document).ready(function(){
         fade:true,
         speed:600,
         dots:true,
+        lazyLoad:'progressive',
         
 	})
 });
